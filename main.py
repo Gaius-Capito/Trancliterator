@@ -44,9 +44,9 @@ class Window(tk.Tk):
         query.place(relx=0, rely=0, relwidth=1)
 
     def result_frame(self):
-        frame_editor = tk.Frame(self, height=240, width=700)
-        frame_editor.place(relx=0.2, rely=0.5, relwidth=0.8, relheight=0.5)
-        query = tk.Text(master=frame_editor)
+        frame = tk.Frame(self, height=240, width=700)
+        frame.place(relx=0.2, rely=0.5, relwidth=0.8, relheight=0.5)
+        query = tk.Text(master=frame)
         query.place(relx=0, rely=0, relwidth=1)
 
 
