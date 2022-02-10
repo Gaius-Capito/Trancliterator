@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 
-
+# This is class
 class Window(tk.Tk):
 
     def __init__(self):
